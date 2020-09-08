@@ -1,1 +1,3 @@
 
+My test table ARN : arn:aws:dynamodb:ap-south-1:635454878891:table/Users_parctice
+
