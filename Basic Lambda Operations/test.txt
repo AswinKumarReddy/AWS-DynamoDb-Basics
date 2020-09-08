@@ -1,3 +1,6 @@
 
 My test table ARN : arn:aws:dynamodb:ap-south-1:635454878891:table/Users_parctice
 
+Note- 
+Creating andinline policy for dynamoDB read-wirte will require this ARN ID of your table.
+
