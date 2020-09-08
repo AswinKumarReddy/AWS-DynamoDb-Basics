@@ -12,11 +12,14 @@ exports.handler = function (event, context, callback) {
     //api version is standard and can be use as it is every where
     const ddb = new AWS.DynamoDB({apiVesrsion : '2012-10-08'});
 
+    //this a DynamoDB json syntax for params
+    //here 'S' basicall means the type of id is a String
+    //There is a way to skip this format and it is shown in other file
     const params = {
         TableName : "Users_parctice",
         Key :{
             id:{
-                s:"29081999"
+                S:"29081999"
             }
         }        
     }
